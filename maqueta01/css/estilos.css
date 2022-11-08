@@ -7,14 +7,31 @@
 main{
     background-color:  rgba(88, 81, 81, 0.39);
 }
-.h1{
+
+.logo-nav{
+    width: 200px;
+    height: 90px;
+}
+
+.titulo{
+    padding: 0 60px 0 0;
+}
+
+/*.contenedor-nav{
+    display: flex;
+    justify-content: center;
+}*/
+
+
+
+.principal{
     display: flex;
     justify-content: flex-start;
     align-items: center;
     
 }
 
-.titulo h1{
+.titulo .principal{
 
     font-size: 23px;
     font-family: 'Alfa Slab One', cursive; 
@@ -34,7 +51,7 @@ img{
 
 
 h5{
-    color: aliceblue;
+    color: white;
 }
 
 .sub-titulo{
@@ -67,7 +84,7 @@ h3{
     box-shadow: inset black;
 }
 p{
-    color: aliceblue;
+    color: black;
 }
 
 .bi-instagram {
@@ -99,4 +116,4 @@ hr{
     justify-content: center;
     color: white;
 }
- 
+
