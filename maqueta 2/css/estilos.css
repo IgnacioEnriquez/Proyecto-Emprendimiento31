@@ -39,17 +39,9 @@ main{
     padding: 0 70px 0 0;
 }
 
-.caja-link
+
 
 /*TERMINA EL NAV*/
-
-
-
-
-
-h5{
-    color: aliceblue;
-}
 
 .sub-titulo{
     /*background-color: rgba(88, 81, 81, 0.39);*/
@@ -82,10 +74,10 @@ h3{
 }
 
 /*footer*/
-h5{
+.titulo-footer{
     color: aliceblue;
 }
-p{
+.parrafo-footer{
     color: aliceblue;
 }
 
@@ -109,9 +101,6 @@ p{
    justify-content: center;
 }
 
-hr{
-    color:white
-}
 
 .copy{
     display: flex;
