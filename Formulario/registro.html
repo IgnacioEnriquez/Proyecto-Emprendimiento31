@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <!-- <nav>
+        <div class="logo"><img src="img/Logo.png"  width="150" alt="Emprendimiento 31"></div>
+        <div class="enlaces">
+        <a href="#">Inicio</a>
+        <a href="#">Quienes somos</a>
+        <a href="#">Capacitaciones</a>
+        <a href="#">Catálogo</a>
+        <a href="#">Contacto</a>
+        <a href="#">Login</a>
+        </div>
+    </nav> -->
+    <header></header>
+    <main>
+        <div class="contenedor">
+        <form action="" id="formulario" name="formulario" class="formulario">
+            <div class="contenedor-inputs">
+            <input type="text" id="nombre" placeholder="Nombre" required>
+
+            <input type="text" id="apellido" placeholder="Apellido" required>
+
+            <input type="email" name="correo" placeholder="Correo" id="correo" required>
+
+            <label for="fecha">Fecha de Nacimiento:</label><input type="date" name="fecha" id="fecha" required>
+            <input type="text" id="contraseña" placeholder="Contraseña" required pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" >
+        </div>
+        <div class="sexo">
+
+            <input type="radio" name="sexo" id="hombre" required> <label class="label-radio" for="hombre">Hombre</label>
+
+            <input type="radio" name="sexo" id="mujer" required><label class="label-radio" for="mujer">Mujer</label>
+
+        </div>
+<div class="terminos">
+            <input type="checkbox" name="terminos" id="terminos" required> <label for="terminos">Acepto terminos y condiciones</label>
+        </div>
+        <input type="submit" value="Registrarse" id="boton" class="boton">
+    </div>
+            
+       
+        </form>
+    
+    </main>
+    <!-- <footer>
+        <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+    </footer> -->
+</body>
+<script src="js/codigo.js"></script>
+</html>

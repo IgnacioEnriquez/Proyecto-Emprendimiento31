@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+font-family: 'Poppins', sans-serif;
+background-color: #bdbbbb;
+font-size: 18px;
+}
+nav{
+    font-size: 15px;
+    background-color: #212528;
+    height: 50px;
+    width: 100%;
+    text-align: right;
+    display: flex;
+    align-content: space-between;
+    align-items: center;
+}
+nav .logo{
+    text-align: left;
+    width: 20%;
+    margin-left: 15px;
+}
+nav .enlaces{
+    width: 80%;
+    
+}
+nav .enlaces a{
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid transparent;
+    margin-right: 15px;
+}
+nav .enlaces a:hover{
+    border-bottom: 1px solid #ccc;
+}
+.contenedor{
+    width: 400px;
+    margin: 40px auto;
+}
+.formulario .contenedor-inputs{
+    padding: 20px;
+    background: #fff;
+    border-radius: 6px 6px 0 0;
+}
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario input[type="date"]{
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 15px 10px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    font-family: 'Poppins', sans-serif;;
+}
+
+.formulario input[type="text"]:focus,
+.formulario input[type="email"]:focus,
+.formulario input[type="date"]:focus{
+border-bottom:2px solid #212528;
+}
+.formulario input[type="radio"]{
+    display: none;
+}
+.formulario .sexo{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+   
+}
+
+
+.formulario .label-radio{
+    background: rgba(249, 160, 63, .7);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    width: 49%;
+    border-radius: 5px;
+}
+.formulario input[type="radio"]:checked + .label-radio{
+    background: #ffc008;
+}
+.sexo, .terminos{
+    padding: 20px;
+    background: #fff;
+}
+.boton{
+    background: #ffc008;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    width: 400px;
+    height: 50px;
+    border: none;
+    border-radius: 0 0 6px 6px;
+    font-size: 20px;
+   cursor: pointer;
+}
+footer{
+    width: 100%;
+    height: 200px;
+    background-color: #212528;
+}
